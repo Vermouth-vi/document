@@ -25,4 +25,17 @@ https://developer.android.com/studio/index.html
 # 新建项目
   
 首页  **Start a new Android Studio project**  
-在第一页填写自己的项目信息，其余项都可保留默认值  
+在第一页填写自己的项目信息，其余项都可保留默认值  
+项目创建后，在 **file->Project Structure** 中可以对该项目所用的SDK版本进行配置  
+在项目没有错误的情况下，点击工具栏中绿色的箭头运行该项目  
+首次运行需要安装模拟器（依然翻墙）  
+安装完毕后选择相应的模拟器版本即可运行该项目  
+此时应该在模拟器屏幕上显示 **Hello world** 字样  
+
+# 可能出现错误
+
+在Studio首次运行时，可能会报错Unable to access Android SDK add on list  
+点击cancel  
+1）进入应用程序，找到Android Studio，右键->显示包内容->Contents->bin，找到文件idea.properties，使用文本工具打开  
+2）在idea.properties文件末尾添加一行：disable.android.first.run=true，然后保存文件。  
+3）关闭Android Studio后重新启动，便可进入界面。
