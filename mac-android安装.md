@@ -18,9 +18,8 @@ https://developer.android.com/studio/index.html
 欢迎页点击next
 在Android SDK location中填写SDK的安装目录（自己新建目录，用来储存将要下载的SDK）  
   
-选择需要的SDK版本，点击next下载(从谷歌翻墙下载，速度较慢，也可手动下载)
-  
-安装完毕后回到首页，右下角的设置项，选择SDK Manager进行SDK的版本和工具管理  
+选择需要的SDK版本，点击next下载(从谷歌翻墙下载，速度较慢，也可手动下载)  
+安装完毕后回到首页，右下角的设置项，选择SDK Manager进行SDK的版本和工具管理  
 编辑正确的SDK文件夹路径
 
 # 新建项目
