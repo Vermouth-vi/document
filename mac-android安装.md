@@ -44,7 +44,7 @@ https://developer.android.com/studio/index.html
 # 可能出现错误
 
 在Studio首次运行时，可能会报错Unable to access Android SDK add on list  
-![Image of error](./images/error.png)
+![Image of error](./image/error.png)
 点击cancel  
 1）进入应用程序，找到Android Studio，右键->显示包内容->Contents->bin，找到文件idea.properties，使用文本工具打开  
 2）在idea.properties文件末尾添加一行：disable.android.first.run=true，然后保存文件。  
