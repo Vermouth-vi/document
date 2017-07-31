@@ -38,9 +38,9 @@ adb devices 如果安装成功，此时会显示连接的模拟器的相关信�
   
   
 SDK路径找不到  
-  
-在项目根目录中的android文件夹下，新建文件local.properties  
-编辑该文件，写入sdk.dir = /Users/vi/Desktop/sdk  
+
+在项目根目录中的android文件夹下，新建文件local.properties  
+编辑该文件，写入sdk.dir = /Users/vi/Desktop/sdk  
 此路径为前面设置过的本地SDK目录路径，保存，问题解决  
   
 2.如图所示  
