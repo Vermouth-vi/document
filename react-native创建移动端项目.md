@@ -19,9 +19,9 @@ IOS项目在MAC安装Xcode的情况下运行正常，会自动打开IOS模拟器
 下载完毕后运行客户端，创建新的虚拟机，选择自己需要的版本，等待下载  
 
 虚拟机下载完毕后，点击扳手按钮进行虚拟机设置，如图所示，网络模式一定要选Bridge  
-
+![Image of set1](./image/08.png) 
 选择Settings->ADB，选择Use custom Android SDK tools 将SDK目录更改为本地目录（Android studio的SDK目录）
-
+![Image of set2](./image/09.png) 
 ### ADB的安装
 
 什么是 ADB?  
@@ -35,7 +35,7 @@ adb devices 如果安装成功，此时会显示连接的模拟器的相关信�
 ### 相关错误解决方法
 
 1.如图所示  
-  
+  ![Image of err1](./image/10.png) 
   
 SDK路径找不到  
 
@@ -44,7 +44,7 @@ SDK路径找不到
 此路径为前面设置过的本地SDK目录路径，保存，问题解决  
   
 2.如图所示  
-  
+  ![Image of err2](./image/11.png) 
 提示模拟器无法连接  
 要保证模拟器处于开启状态  
 无法自动打开模拟器
