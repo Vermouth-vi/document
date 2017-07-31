@@ -9,3 +9,4 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 # 下载Android Studio  
 
 https://developer.android.com/studio/index.html  
+![Image of StudioFirstPage](./image/01.png)
