@@ -16,12 +16,12 @@
   
 在 info.plist 文件中添加  
 
-> <key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-		<key>NSAllowsArbitraryLoadsInWebContent</key>
-		<true/>
-		<key>NSAllowsLocalNetworking</key>
-		<true/>
-	</dict>
+<key>NSAppTransportSecurity</key>  
+<dict>  
+	<key>NSAllowsArbitraryLoads</key>  
+	<true/>  
+	<key>NSAllowsArbitraryLoadsInWebContent</key>  
+	<true/>  
+	<key>NSAllowsLocalNetworking</key>  
+	<true/>  
+</dict>
